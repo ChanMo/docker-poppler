@@ -3,8 +3,8 @@
 A simple http api service for poppler, include `pdftohtml`, `pdftotext`, `pdfinfo`, `pdftoppm`, `pdftocairo`
 
 Need more format converting tools ? 
-- [chanmo/pandoc](https://chanmo.github.com/docker-pandoc)
-- [chanmo/unoserver](https://chanmo.github.com/docker-unoserver)
+- [chanmo/pandoc](https://github.com/ChanMo/docker-pandoc)
+- [chanmo/unoserver](https://github.com/ChanMo/docker-unoserver)
 
 ## Usage
 
