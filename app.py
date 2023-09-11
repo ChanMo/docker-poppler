@@ -24,10 +24,9 @@ def pdftocairo():
     file.save(infile.name)
     outfile = str(uuid.uuid4())
     os.mkdir(f'./media/{outfile}')
-    os.chdir(f'./media/{outfile}')
-    sp.run(['pdftocairo', '-png', infile.name, 'output'], check=True)
+    sp.run(['pdftocairo', '-png', infile.name, f'./media/{outfile}/output'], check=True)
     return {
-        'images': [f'/media/{outfile}/{i}' for i in os.listdir('./')]
+        'images': [f'/media/{outfile}/{i}' for i in os.listdir(f'./media/{outfile}/')]
     }
 
 
