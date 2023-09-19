@@ -2,6 +2,8 @@
 
 A simple http api service for poppler, include `pdftohtml`, `pdftotext`, `pdfinfo`, `pdftoppm`, `pdftocairo`
 
+For more tools to help you manage and use your documents, visit [Awesome Document](https://www.chanmo.me/awesome_document.html)
+
 Need more format converting tools ? 
 - [chanmo/pandoc](https://github.com/ChanMo/docker-pandoc)
 - [chanmo/unoserver](https://github.com/ChanMo/docker-unoserver)
